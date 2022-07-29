@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#container {
+  width: 90vw;
+  height: 90vh;
+  border: 1px solid black;
+}
+
+#clear,
+#zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#equals {
+  grid-column-start: 4;
+  grid-row-start: 4;
+  grid-row-end: span 2;
+}
+
+#buttons {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  height: 80%;
+}
